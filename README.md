@@ -21,7 +21,7 @@ A command line tool and library to generate QR Codes with logos/images embedded.
 
 1. Go needs to be installed then the following command can be used to add qrlogo to your project:
 ```shell
-go get github.com/alexandernorth/qrlogo
+go get -u github.com/alexandernorth/qrlogo
 ```
 
 2. Import `qrlogo` into your code:
