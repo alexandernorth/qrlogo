@@ -1,6 +1,6 @@
 # QRLogo
-A command line tool and library to generate QR Codes with logos/images embedded. The logos can be padded in 
-different ways to make them stand out.
+A command line tool and library written in Go to generate QR Codes with logos/images embedded. The logos can be 
+padded in different ways to make them stand out.
 
 <img alt="A generated QRCode with the Github logo centered, directing the user to the repository URL" 
 src="images/github-qr.png" title="Github QRCode" height="300" width="300"/>
@@ -39,9 +39,10 @@ Create a file with the following contents:
 package main
 
 import (
-	"github.com/alexandernorth/qrlogo"
-	"os"
-	"path"
+  "os"
+  "path"
+
+  "github.com/alexandernorth/qrlogo"
 )
 
 func main() {
